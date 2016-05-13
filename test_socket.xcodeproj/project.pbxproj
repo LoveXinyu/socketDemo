@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B325B851CC75D39002DE441 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B841CC75D39002DE441 /* main.cpp */; };
+		2B325B941CC75D54002DE441 /* PCInetAddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B8D1CC75D54002DE441 /* PCInetAddress.cpp */; };
+		2B325B951CC75D54002DE441 /* PCNetServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B901CC75D54002DE441 /* PCNetServer.cpp */; };
+		2B325B961CC75D54002DE441 /* PCSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B921CC75D54002DE441 /* PCSocket.cpp */; };
+		2B325B971CC75D61002DE441 /* net.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B8C1CC75D54002DE441 /* net.h */; };
+		2B325B981CC75D61002DE441 /* PCInetAddress.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B8E1CC75D54002DE441 /* PCInetAddress.h */; };
+		2B325B991CC75D61002DE441 /* PCInetpredef.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B8F1CC75D54002DE441 /* PCInetpredef.h */; };
+		2B325B9A1CC75D61002DE441 /* PCNetServer.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B911CC75D54002DE441 /* PCNetServer.h */; };
+		2B325B9B1CC75D61002DE441 /* PCSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 2B325B931CC75D54002DE441 /* PCSocket.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B325B7F1CC75D39002DE441 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B325B811CC75D39002DE441 /* test_socket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_socket; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B325B841CC75D39002DE441 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp.preprocessed; path = main.cpp; sourceTree = "<group>"; };
+		2B325B8C1CC75D54002DE441 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		2B325B8D1CC75D54002DE441 /* PCInetAddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PCInetAddress.cpp; sourceTree = "<group>"; };
+		2B325B8E1CC75D54002DE441 /* PCInetAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCInetAddress.h; sourceTree = "<group>"; };
+		2B325B8F1CC75D54002DE441 /* PCInetpredef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCInetpredef.h; sourceTree = "<group>"; };
+		2B325B901CC75D54002DE441 /* PCNetServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PCNetServer.cpp; sourceTree = "<group>"; };
+		2B325B911CC75D54002DE441 /* PCNetServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCNetServer.h; sourceTree = "<group>"; };
+		2B325B921CC75D54002DE441 /* PCSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PCSocket.cpp; sourceTree = "<group>"; };
+		2B325B931CC75D54002DE441 /* PCSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCSocket.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B325B7E1CC75D39002DE441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B325B781CC75D39002DE441 = {
+			isa = PBXGroup;
+			children = (
+				2B325B8B1CC75D54002DE441 /* servers */,
+				2B325B831CC75D39002DE441 /* test_socket */,
+				2B325B821CC75D39002DE441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B325B821CC75D39002DE441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B325B811CC75D39002DE441 /* test_socket */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B325B831CC75D39002DE441 /* test_socket */ = {
+			isa = PBXGroup;
+			children = (
+				2B325B841CC75D39002DE441 /* main.cpp */,
+			);
+			path = test_socket;
+			sourceTree = "<group>";
+		};
+		2B325B8B1CC75D54002DE441 /* servers */ = {
+			isa = PBXGroup;
+			children = (
+				2B325B8C1CC75D54002DE441 /* net.h */,
+				2B325B8D1CC75D54002DE441 /* PCInetAddress.cpp */,
+				2B325B8E1CC75D54002DE441 /* PCInetAddress.h */,
+				2B325B8F1CC75D54002DE441 /* PCInetpredef.h */,
+				2B325B901CC75D54002DE441 /* PCNetServer.cpp */,
+				2B325B911CC75D54002DE441 /* PCNetServer.h */,
+				2B325B921CC75D54002DE441 /* PCSocket.cpp */,
+				2B325B931CC75D54002DE441 /* PCSocket.h */,
+			);
+			path = servers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B325B801CC75D39002DE441 /* test_socket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B325B881CC75D39002DE441 /* Build configuration list for PBXNativeTarget "test_socket" */;
+			buildPhases = (
+				2B325B7D1CC75D39002DE441 /* Sources */,
+				2B325B7E1CC75D39002DE441 /* Frameworks */,
+				2B325B7F1CC75D39002DE441 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_socket;
+			productName = test_socket;
+			productReference = 2B325B811CC75D39002DE441 /* test_socket */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B325B791CC75D39002DE441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = caoxin;
+				TargetAttributes = {
+					2B325B801CC75D39002DE441 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2B325B7C1CC75D39002DE441 /* Build configuration list for PBXProject "test_socket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B325B781CC75D39002DE441;
+			productRefGroup = 2B325B821CC75D39002DE441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B325B801CC75D39002DE441 /* test_socket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B325B7D1CC75D39002DE441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B325B971CC75D61002DE441 /* net.h in Sources */,
+				2B325B981CC75D61002DE441 /* PCInetAddress.h in Sources */,
+				2B325B991CC75D61002DE441 /* PCInetpredef.h in Sources */,
+				2B325B9A1CC75D61002DE441 /* PCNetServer.h in Sources */,
+				2B325B9B1CC75D61002DE441 /* PCSocket.h in Sources */,
+				2B325B951CC75D54002DE441 /* PCNetServer.cpp in Sources */,
+				2B325B961CC75D54002DE441 /* PCSocket.cpp in Sources */,
+				2B325B851CC75D39002DE441 /* main.cpp in Sources */,
+				2B325B941CC75D54002DE441 /* PCInetAddress.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B325B861CC75D39002DE441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B325B871CC75D39002DE441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B325B891CC75D39002DE441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__ios__=1",
+					"__android__=0",
+					"__win__=0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B325B8A1CC75D39002DE441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__ios__=1",
+					"__android__=0",
+					"__win__=0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B325B7C1CC75D39002DE441 /* Build configuration list for PBXProject "test_socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B325B861CC75D39002DE441 /* Debug */,
+				2B325B871CC75D39002DE441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B325B881CC75D39002DE441 /* Build configuration list for PBXNativeTarget "test_socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B325B891CC75D39002DE441 /* Debug */,
+				2B325B8A1CC75D39002DE441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B325B791CC75D39002DE441 /* Project object */;
+}
